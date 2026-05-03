@@ -5,6 +5,12 @@
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#3b82f6",
+  "id": "/?id=math-dash",
+  "orientation": "portrait",
+  "categories": ["game", "education", "entertainment"],
+  "iarc_rating_id": "e",
+  "display_override": ["standalone", "minimal-ui", "window-controls-overlay"],
+  "lang": "en-US",
   "icons": [
     {
       "src": "icon.png",
@@ -18,5 +24,29 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Play Math Dash",
+      "short_name": "Play",
+      "description": "Start a new game immediately",
+      "url": "/?play=true",
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "A fast-paced math quiz game to test your calculation speed!"
 }
